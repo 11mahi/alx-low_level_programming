@@ -12,15 +12,19 @@ int _strlen(char *s)
 	i = 0;
 
 	while (s[i] != '\0')
+	{
 		i++;
+	}
 	return (0);
 }
+
 /**
  * *_strcpy - copies string pointed to src
  * @dest: pointer to the buffer
  * @src: string to be copied
  * Return: pointer dest
  */
+
 char *_strcpy(char *dest, char *src)
 {
 	int len, i;
@@ -28,9 +32,13 @@ char *_strcpy(char *dest, char *src)
 	len = 0;
 
 	while (src[len] != '\0')
+	{
 		len++;
+	}
 	for (i = 0; i < len; i++)
+	{
 		dest[i] = src[i];
+	}
 	dest[i] = '\0';
 	return (dest);
 }
