@@ -1,12 +1,13 @@
 #include <stdlib.h>
 #include "dog.h"
 /**
- * init_dog - initialize a variable of type struct dog
+ * init_dog - initialize a variabletype struct dog
  * @d: pointer to struct dog
  * @name: name
  * @age: age
- * @owmer: owner
+ * @owmer: owner to intialize
  */
+
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d == NULL)
